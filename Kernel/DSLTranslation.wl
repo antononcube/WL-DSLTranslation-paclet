@@ -147,10 +147,10 @@ DSLCLIInterpretation[command_String, opts : OptionsPattern[]] :=
 Clear[DSLTranslation];
 
 DSLTranslation::nsrc =
-    "The value of the option \"Source\" is exected to be one of \"Web\", \"CLI\", Automatic.";
+    "The value of the option \"Source\" is expected to be one of \"Web\", \"CLI\", Automatic.";
 
 DSLTranslation::nfmt =
-    "The value of the option \"Format\" is exected to be one of \"CODE\", \"JSON\", Association, Automatic.";
+    "The value of the option \"Format\" is expected to be one of \"CODE\", \"JSON\", Association, Automatic.";
 
 DSLTranslation::lngs = "Assuming from language `1` and to language `2`";
 
